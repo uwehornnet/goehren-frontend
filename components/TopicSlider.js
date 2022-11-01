@@ -1,11 +1,12 @@
 import { useRef } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Link } from "next/link";
+import Link from "next/link";
 
 const TopicSlider = () => {
 	const next = useRef();
 	const prev = useRef();
+
 	return (
 		<div className="relative w-full ">
 			<Swiper
