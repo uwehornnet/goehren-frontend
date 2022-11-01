@@ -45,7 +45,7 @@ const Kurort = () => {
 								Reichtum. Hier bieten sich Ihnen viele Möglichkeiten, die Natur aktiv oder einfach nur
 								genießend zu erleben, sie dabei aber nicht zu zerstören. Ganz im Gegenteil, bei uns
 								können Sie die Natur erleben und gleichzeitig aktiv zum Umweltschutz beitragen! Und das
-								gilt auch schon für die Kleinsten!{" "}
+								gilt auch schon für die Kleinsten!
 							</p>
 						</div>
 					</div>
@@ -54,10 +54,10 @@ const Kurort = () => {
 				<div className="container mx-auto">
 					<div className="grid grid-cols-1 laptop:grid-cols-3 gap-4">
 						<div className="col-span-1 laptop:col-span-2 bg-slate-100 p-8">
-							<h2 className="text-big">Offizielles Prädikat "Kneippkurort"</h2>
+							<h2 className="text-big">Offizielles Prädikat Kneippkurort</h2>
 							<p className="my-4">
 								Seit dem 03. Mai des Jahres 2007 trägt das Ostseebad Göhren das offizielle Prädikat
-								"Kneippkurort". An vielen Stellen von Göhren finden Sie Hinweise darauf. Und dies mit
+								Kneippkurort. An vielen Stellen von Göhren finden Sie Hinweise darauf. Und dies mit
 								Recht, denn die 5 Säulen der Kneippschen Lehre sind: - Die Heilwirkung des Wassers - Die
 								therapeutische Wirkung von Bewegung an frischer Luft - Die milde Wirkung von
 								Heilpflanzen - Eine gesunde und ausgewogene Ernährung - Der sinnvolle Wechsel zwischen
@@ -79,7 +79,7 @@ const Kurort = () => {
 								Sich rundum wohlzufühlen, gesund zu leben und hierfür insbesondere präventiv zu handeln
 								ist für viele Menschen seit einigen Jahren zunehmend bedeutsam geworden. Dies ist im
 								letzten Jahr aus den bekannten Gründen noch einmal mehr in den Vordergrund gerückt.
-								Deshalb ist es äußerst passend, dass 2021 bundesweit zum „Kneipp-Jahr“ berufen wurde.
+								Deshalb ist es äußerst passend, dass 2021 bundesweit zum Kneipp-Jahr berufen wurde.
 								Anlässlich des 200. Geburtstags von Sebastian Kneipp wird seiner bewährten
 								Gesundheitsphilosophie, die aufgrund ihrer ganzheitlichen Ausrichtung moderner denn je
 								ist, gedacht und die vielfältigen, oft einfachen Anwendungen sind gezeigt worden.
