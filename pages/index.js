@@ -1,10 +1,13 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-
 import Head from "next/head";
 import Link from "next/link";
+import TopicSlider from "../components/TopicSlider";
+import TopicGrid from "../components/TopicGrid";
+import BlogTeaser from "../components/BlogTeaser";
+import EventSLider from "../components/EventSlider";
+import ReviewSlider from "../components/ReviewSlider";
 
 export default function Home() {
-    return (
+	return (
 		<>
 			<Head>
 				<title>Kurverwaltung Göhren</title>
@@ -131,185 +134,24 @@ export default function Home() {
 				{/** Grid End */}
 
 				{/** Events Slider */}
-				<div className="overflow-hidden events relative">
-					<div className="container mx-auto">
-						<Swiper
-							spaceBetween={24}
-							slidesPerView={4}
-							className="overflow-visible"
-							onSlideChange={() => console.log("slide change")}
-							onSwiper={(swiper) => console.log(swiper)}
-						>
-							<SwiperSlide className="aspect-portrait  p-4 flex flex-col justify-between">
-								<h3 className="font-semibold">Veranstaltungen</h3>
-								<ul className="tracking-loose">
-									<li>
-										<Link href="">
-											<a className="flex items-center gap-4">
-												<span>Highlights</span>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													strokeWidth={2}
-													stroke="currentColor"
-													className="w-6 h-6"
-												>
-													<path
-														strokeLinecap="round"
-														strokeLinejoin="round"
-														d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-													/>
-												</svg>
-											</a>
-										</Link>
-									</li>
-									<li>
-										<Link href="">
-											<a className="flex items-center gap-4">
-												<span>alle Veranstaltungen</span>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													strokeWidth={2}
-													stroke="currentColor"
-													className="w-6 h-6"
-												>
-													<path
-														strokeLinecap="round"
-														strokeLinejoin="round"
-														d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-													/>
-												</svg>
-											</a>
-										</Link>
-									</li>
-								</ul>
-							</SwiperSlide>
-							<SwiperSlide className="">
-								<div className="aspect-portrait bg-slate-200 mb-4 flex flex-col justify-end">
-									<div className="p-4 bg-white aspect-square w-[100px]">
-										<p className="text-5xl">12.</p>
-										<small>Feb 2022</small>
-									</div>
-								</div>
-								<h3>Wald erleben mit allen Sinnen</h3>
-							</SwiperSlide>
-							<SwiperSlide className="">
-								<div className="aspect-portrait bg-slate-200 mb-4 flex flex-col justify-end">
-									<div className="p-4 bg-white aspect-square w-[100px]">
-										<p className="text-5xl">12.</p>
-										<small>Feb 2022</small>
-									</div>
-								</div>
-								<h3>Wald erleben mit allen Sinnen</h3>
-							</SwiperSlide>
-							<SwiperSlide className="">
-								<div className="aspect-portrait bg-slate-200 mb-4 flex flex-col justify-end">
-									<div className="p-4 bg-white aspect-square w-[100px]">
-										<p className="text-5xl">12.</p>
-										<small>Feb 2022</small>
-									</div>
-								</div>
-								<h3>Wald erleben mit allen Sinnen</h3>
-							</SwiperSlide>
-							<SwiperSlide className="">
-								<div className="aspect-portrait bg-slate-200 mb-4 flex flex-col justify-end">
-									<div className="p-4 bg-white aspect-square w-[100px]">
-										<p className="text-5xl">12.</p>
-										<small>Feb 2022</small>
-									</div>
-								</div>
-								<h3>Wald erleben mit allen Sinnen</h3>
-							</SwiperSlide>
-							<SwiperSlide className="">
-								<div className="aspect-portrait bg-slate-200 mb-4 flex flex-col justify-end">
-									<div className="p-4 bg-white aspect-square w-[100px]">
-										<p className="text-5xl">12.</p>
-										<small>Feb 2022</small>
-									</div>
-								</div>
-								<h3>Wald erleben mit allen Sinnen</h3>
-							</SwiperSlide>
-							<SwiperSlide className="">
-								<div className="aspect-portrait bg-slate-200 mb-4 flex flex-col justify-end">
-									<div className="p-4 bg-white aspect-square w-[100px]">
-										<p className="text-5xl">12.</p>
-										<small>Feb 2022</small>
-									</div>
-								</div>
-								<h3>Wald erleben mit allen Sinnen</h3>
-							</SwiperSlide>
-						</Swiper>
-					</div>
-				</div>
+				<EventSLider />
 				{/** Events Slider End */}
 
 				{/** Reviews */}
+				<ReviewSlider />
+
 				{/** Reviews End */}
 
 				{/** Thema Slider */}
+				<TopicSlider />
 				{/** Thema Slider End */}
 
 				{/** Thema Grid */}
-				<div className="container mx-auto grid grid-cols-3 gap-4 my-16">
-					<div className="col-span-1 aspect-square bg-slate-100 p-8 flex flex-col justify-between">
-						<h3 className="text-xl font-semibold">Unsere Empfehlungen</h3>
-						<div>
-							<p>
-								I'm baby umami farm-to-table shoreditch leggings, crucifix VHS forage ennui small batch
-								four dollar toast cray.
-							</p>
-							<Link href="/">
-								<a className="flex items-center gap-4 mt-8">
-									<span>weiterlesen</span>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										fill="none"
-										viewBox="0 0 24 24"
-										strokeWidth={2}
-										stroke="currentColor"
-										className="w-6 h-6"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-										/>
-									</svg>
-								</a>
-							</Link>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-2 bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-				</div>
+				<TopicGrid />
 				{/** Thema Grid End */}
 
 				{/** Blog Teaser */}
+				<BlogTeaser />
 				{/** Blog Teaser End */}
 			</main>
 		</>
