@@ -6,7 +6,7 @@ const TopicGrid = () => {
 				<h3 className="text-xl font-semibold">Unsere Empfehlungen</h3>
 				<div>
 					<p>
-						I'm baby umami farm-to-table shoreditch leggings, crucifix VHS forage ennui small batch four
+						Im baby umami farm-to-table shoreditch leggings, crucifix VHS forage ennui small batch four
 						dollar toast cray.
 					</p>
 					<Link href="/">

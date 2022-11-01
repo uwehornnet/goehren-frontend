@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "next/link";
 
 const TopicSlider = () => {
 	const next = useRef();
@@ -36,27 +37,29 @@ const TopicSlider = () => {
 									Ein wunderschöner Aussichtspunkt befindet sich am Hügelgrab Speckbusch. Das
 									Hügelgrab liegt auf einer Anhöhe, neben der Kirche unter einer alten Baumgruppe.
 								</p>
-								<a href="/" className="flex items-center gap-2 group mt-4 font-medium">
-									<span>mehr erfahren</span>
-									<span>
-										<svg
-											width="20"
-											height="10"
-											viewBox="0 0 20 10"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-											className="block group-hover:translate-x-4"
-										>
-											<path
-												d="M19 5H1M15 1L19 5L15 1ZM19 5L15 9L19 5Z"
-												stroke="black"
-												strokeWidth="2"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-											/>
-										</svg>
-									</span>
-								</a>
+								<Link href="/">
+									<a className="flex items-center gap-2 group mt-4 font-medium">
+										<span>mehr erfahren</span>
+										<span>
+											<svg
+												width="20"
+												height="10"
+												viewBox="0 0 20 10"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+												className="block group-hover:translate-x-4"
+											>
+												<path
+													d="M19 5H1M15 1L19 5L15 1ZM19 5L15 9L19 5Z"
+													stroke="black"
+													strokeWidth="2"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</span>
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -74,27 +77,29 @@ const TopicSlider = () => {
 									Ein wunderschöner Aussichtspunkt befindet sich am Hügelgrab Speckbusch. Das
 									Hügelgrab liegt auf einer Anhöhe, neben der Kirche unter einer alten Baumgruppe.
 								</p>
-								<a href="/" className="flex items-center gap-2 group mt-4 font-medium">
-									<span>mehr erfahren</span>
-									<span>
-										<svg
-											width="20"
-											height="10"
-											viewBox="0 0 20 10"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-											className="block group-hover:translate-x-4"
-										>
-											<path
-												d="M19 5H1M15 1L19 5L15 1ZM19 5L15 9L19 5Z"
-												stroke="black"
-												strokeWidth="2"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-											/>
-										</svg>
-									</span>
-								</a>
+								<Link href="/">
+									<a className="flex items-center gap-2 group mt-4 font-medium">
+										<span>mehr erfahren</span>
+										<span>
+											<svg
+												width="20"
+												height="10"
+												viewBox="0 0 20 10"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+												className="block group-hover:translate-x-4"
+											>
+												<path
+													d="M19 5H1M15 1L19 5L15 1ZM19 5L15 9L19 5Z"
+													stroke="black"
+													strokeWidth="2"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</span>
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -112,27 +117,29 @@ const TopicSlider = () => {
 									Ein wunderschöner Aussichtspunkt befindet sich am Hügelgrab Speckbusch. Das
 									Hügelgrab liegt auf einer Anhöhe, neben der Kirche unter einer alten Baumgruppe.
 								</p>
-								<a href="/" className="flex items-center gap-2 group mt-4 font-medium">
-									<span>mehr erfahren</span>
-									<span>
-										<svg
-											width="20"
-											height="10"
-											viewBox="0 0 20 10"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-											className="block group-hover:translate-x-4"
-										>
-											<path
-												d="M19 5H1M15 1L19 5L15 1ZM19 5L15 9L19 5Z"
-												stroke="black"
-												strokeWidth="2"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-											/>
-										</svg>
-									</span>
-								</a>
+								<Link href="/">
+									<a className="flex items-center gap-2 group mt-4 font-medium">
+										<span>mehr erfahren</span>
+										<span>
+											<svg
+												width="20"
+												height="10"
+												viewBox="0 0 20 10"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+												className="block group-hover:translate-x-4"
+											>
+												<path
+													d="M19 5H1M15 1L19 5L15 1ZM19 5L15 9L19 5Z"
+													stroke="black"
+													strokeWidth="2"
+													strokeLinecap="round"
+													strokeLinejoin="round"
+												/>
+											</svg>
+										</span>
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>
