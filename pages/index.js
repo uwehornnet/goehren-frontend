@@ -1,10 +1,11 @@
 import Head from "next/head";
-import Link from "next/link";
 import TopicSlider from "../components/TopicSlider";
 import TopicGrid from "../components/TopicGrid";
 import BlogTeaser from "../components/BlogTeaser";
 import EventSLider from "../components/EventSlider";
 import ReviewSlider from "../components/ReviewSlider";
+import Hero from "../components/Hero";
+import Grid from "../components/Grid";
 
 export default function Home() {
 	return (
@@ -17,35 +18,7 @@ export default function Home() {
 
 			<main>
 				{/** Headerbanner */}
-				<div className="w-full bg-slate-100 aspect-video flex flex-column items-end">
-					<div className="container mx-auto py-16">
-						<h2 className="text-2xl font-semibold mb-4">
-							Hinaus auf die Ostsee ohne nass zu werden <br /> - Die Seebrücke im Ostseebad Göhren
-						</h2>
-						<p className="max-w-[400px]">
-							Am Nordstrand, neben dem Kurplatz, befindet sich die 280 Meter lange Seebrücke Göhrens
-						</p>
-						<Link href="/">
-							<a className="flex items-center gap-4 mt-8">
-								<span>weiterlesen</span>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									strokeWidth={2}
-									stroke="currentColor"
-									className="w-6 h-6"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-									/>
-								</svg>
-							</a>
-						</Link>
-					</div>
-				</div>
+				<Hero />
 				{/** Headerbanner End */}
 
 				{/** Textcontent */}
@@ -65,72 +38,7 @@ export default function Home() {
 				{/** Textcontent End */}
 
 				{/** Grid */}
-				<div className="container mx-auto grid grid-cols-3 gap-4 my-16">
-					<div className="col-span-1 aspect-square bg-slate-100 p-8 flex flex-col justify-between">
-						<h3 className="text-xl font-semibold">Unsere Empfehlungen</h3>
-						<div>
-							<p>
-								Im baby umami farm-to-table shoreditch leggings, crucifix VHS forage ennui small batch
-								four dollar toast cray.
-							</p>
-							<Link href="/">
-								<a className="flex items-center gap-4 mt-8">
-									<span>weiterlesen</span>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										fill="none"
-										viewBox="0 0 24 24"
-										strokeWidth={2}
-										stroke="currentColor"
-										className="w-6 h-6"
-									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-										/>
-									</svg>
-								</a>
-							</Link>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-2 bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-1 aspect-square bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-					<div className="col-span-2 bg-slate-200 flex flex-col justify-end">
-						<div className="bg-gradient-to-t from-neutral-400 text-white p-8">
-							<h3 className="font-semibold">Kneipkurort</h3>
-							<p>Gesundheit per Prädikat</p>
-						</div>
-					</div>
-				</div>
+				<Grid />
 				{/** Grid End */}
 
 				{/** Events Slider */}

@@ -17,6 +17,7 @@ module.exports = {
 			aspectRatio: {
 				portrait: "9 / 11",
 				video: "16 / 9",
+				banner: "16 / 6",
 			},
 		},
 	},
